@@ -1,0 +1,50 @@
+body {
+  margin: auto;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  background-position: fixed;
+  background-size: 100%;
+  background-image: url(./img/soru-isareti-nedir-soru-isaretinin-13620332_9658_amp.jpg);
+}
+h2,
+h4 {
+  color: white;
+  font-style: italic;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+  box-shadow: 5px 5px 5px 5px white;
+  padding: 1.4rem;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 3rem;
+  color: white;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  font-style: italic;
+}
+input {
+  height: 2rem;
+  width: 10rem;
+  font-style: italic;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 1px 3px 3px 1px;
+  border-color: white;
+  font-style: italic;
+}
+
+button:hover {
+  cursor: pointer;
+  color: red;
+  font-style: italic;
+}
